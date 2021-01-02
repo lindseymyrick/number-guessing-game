@@ -6,13 +6,13 @@ const StartGameScreen = props => {
     return(
         <View style={styles.screen}>
             <Text> Start a New Game! </Text>
-            <Card>
-                {/* <Text style={styles.title}>Select a Number </Text>
+            <Card style={styles.inputView}>
+                <Text style={styles.title}>Select a Number </Text>
                 <TextInput />
                 <View style={styles.buttonView}>
                     <Button title="Reset" onPress={()=> {}} />
                     <Button title="Confirm" onPress={()=> {}} />
-                </View> */}
+                </View>
 
             </Card>
         </View>
